@@ -6,6 +6,12 @@ You'll need ChromeDriver to control the Chrome browser. You can download it from
 
 https://developer.chrome.com/docs/chromedriver/downloads
 
+In voteSimulate.py code,  
+Use the Path to the Executable: Make sure the chrome_driver_path points directly to the chromedriver file inside the extracted directory.
+File Permissions: If the issue persists, ensure the chromedriver file has execute permissions (chmod +x chromedriver).
+
+chrome_driver_path = 'PATH-TO-CHROME-DRIVER-IN-COMPUTER'
+
 ## Dependencies Install
 
 you can install all the dependencies listed in the requirement file using:
