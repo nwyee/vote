@@ -11,7 +11,7 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")  # Run in headless mode if you don't need to see the browser
 
 # Specify the path to your chromedriver if it's not in your PATH
-chrome_driver_path = '/Users/nanwittyee/Downloads/chromedriver-mac-x64/chromedriver'
+chrome_driver_path = 'PATH-TO-CHROME-DRIVER-IN-COMPUTER'
 
 
 # Function to perform the voting process
