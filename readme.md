@@ -13,3 +13,36 @@ you can install all the dependencies listed in the requirement file using:
 pip install -r requirements.txt
 
 ## Run
+
+`python voteSimulate.py`
+
+terminal log
+
+```python3 voteSimulate.py
+Running iteration 1
+Voted successfully!
+wait .. for math
+math: [1, 8]
+Voted successfully, including solving the CAPTCHA! ->  9
+Running iteration 2
+Voted successfully!
+wait .. for math
+math: [10, 3]
+Voted successfully, including solving the CAPTCHA! ->  13
+Running iteration 3
+Voted successfully!
+wait .. for math
+math: [1, 5]
+Voted successfully, including solving the CAPTCHA! ->  6
+Running iteration 4
+Voted successfully!
+wait .. for math
+math: [1, 6]
+Voted successfully, including solving the CAPTCHA! ->  7
+Running iteration 5
+Voted successfully!
+wait .. for math
+math: [4, 8]
+Voted successfully, including solving the CAPTCHA! ->  12
+
+```
